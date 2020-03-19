@@ -1,1 +1,3 @@
 # tengu_web
+
+Website to allow customers to be able to create an order, and place an order. Currently the menu will be limited to 4 entrees and 3 sides. Total of 16 different combinations. The customer will be required to provide first name, last name, and phone number to be sent when placing an order. The order will send the information to an email address that is being monitored by tengu employees. The customer will receive a message that it'll take 15 mins to process their order to complete.
