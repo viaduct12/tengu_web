@@ -11,8 +11,7 @@ module.exports = {
     res.sendFile(path.join(__dirname, "../../", "about.html"));
   }),
 
-  contact: router.get('contact', (req,res)=>{
-    res.sendFile(path.join(__dirname, '../../', 'about.html'))
-  })
+  contact: router.get("/contact", (req, res) => {
+    res.sendFile(path.join(__dirname, "../../", "contact.html"));
+  }),
 };
-
