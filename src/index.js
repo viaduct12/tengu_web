@@ -15,6 +15,6 @@ app.listen(PORT, () => {
 });
 
 app.use("/", home);
-app.use("/about", about);
-app.use("/contact", contact);
-app.use('/sendData', email)
+// app.use("/about", about);
+// app.use("/contact", contact);
+// app.use('/sendData', email)
