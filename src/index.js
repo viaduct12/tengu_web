@@ -2,8 +2,7 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const bodyParser = require("body-parser");
-const { home, about, contact } = require("./controller/api");
-const { emailService } = require("./services/emailService");
+const { home, about, contact, email } = require("./controller/api");
 
 const PORT = process.env.port || 3000;
 
@@ -18,6 +17,4 @@ app.listen(PORT, () => {
 app.use("/", home);
 app.use("/about", about);
 app.use("/contact", contact);
-app.post("/sendData", req => {
-  emailService(req.body);
-});
+app.use('/sendData', email)
