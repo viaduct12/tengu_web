@@ -1,3 +1,41 @@
-# tengu_web
 
-Website to allow customers to be able to create an order, and place an order. Currently the menu will be limited to 4 entrees and 3 sides. Total of 16 different combinations. The customer will be required to provide first name, last name, and phone number to be sent when placing an order. The order will send the information to an email address that is being monitored by tengu employees. The customer will receive a message that it'll take 15 mins to process their order to complete.
+<h1 align="center">Welcome to tengu Web 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/npm/v/lighthouse.svg">
+</p>
+
+> Repo for Tengu web front end and server side source code.
+
+## Installing
+
+```bash
+npm install
+```
+
+## Running
+
+```bash
+$ npm run start
+```
+
+## Testing
+
+```bash
+$ npm run test
+```
+
+## Author
+
+👤 **Lawrence Fiesta, Scott Willis**
+
+## Run on your local machine
+
+- Make sure you have google chrome as default browser
+
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+---
